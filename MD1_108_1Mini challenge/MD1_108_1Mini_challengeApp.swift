@@ -13,7 +13,7 @@ struct MD1_108_1Mini_challengeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(fontSize: 16)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
