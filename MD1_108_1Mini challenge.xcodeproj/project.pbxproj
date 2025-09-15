@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		47ADE1192E78953400CA2DCE /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADE1182E78953400CA2DCE /* Note+CoreDataProperties.swift */; };
+		47ADE11A2E78953400CA2DCE /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADE1172E78953400CA2DCE /* Note+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		47ADE0A42E6CDE5700CA2DCE /* MD1_108_1Mini challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MD1_108_1Mini challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47ADE1172E78953400CA2DCE /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		47ADE1182E78953400CA2DCE /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		47ADE09B2E6CDE5700CA2DCE = {
 			isa = PBXGroup;
 			children = (
+				47ADE1172E78953400CA2DCE /* Note+CoreDataClass.swift */,
+				47ADE1182E78953400CA2DCE /* Note+CoreDataProperties.swift */,
 				47ADE0A62E6CDE5700CA2DCE /* MD1_108_1Mini challenge */,
 				47ADE0A52E6CDE5700CA2DCE /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47ADE1192E78953400CA2DCE /* Note+CoreDataProperties.swift in Sources */,
+				47ADE11A2E78953400CA2DCE /* Note+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
